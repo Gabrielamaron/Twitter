@@ -1,0 +1,38 @@
+.tweets-lista__item {
+  border-radius: 8px;
+  margin: 0 0 0.425em;
+  padding: 0.275em;
+  transition: 0925ms;
+  width: 22em;
+}
+
+.tweets-lista__item div {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: max-content;
+}
+
+.tweets-lista__item div img {
+  border-radius: 18px;
+  height: 2.35em;
+  margin-right: 0.25em;
+}
+
+.tweets-lista__item div h2 {
+  font-size: 1.1em;
+}
+
+.tweets-lista__item p {
+  font-size: 1.2em;
+  height: fit-content;
+  opacity: 0.9;
+  word-wrap: break-word;
+}
+
+@media screen and (min-width: 1024px) {
+  .tweets-lista__item:hover {
+    background-color: var(--azul-hover);
+  }
+}

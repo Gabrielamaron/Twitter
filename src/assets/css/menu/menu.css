@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  height: fit-content;
+  padding: 0.5em;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    grid-column: 1;
+    grid-row: 1;
+    justify-content: center;
+    width: 100vw;
+  }
+}

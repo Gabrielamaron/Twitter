@@ -1,0 +1,18 @@
+.titulo {
+  display: flex;
+  font-size: 1.2em;
+  padding: 0.5em 0.75em;
+  transition: 0975ms;
+}
+
+@media screen and (min-width: 1024px) {
+  .titulo:hover {
+    background-color: var(--azul-hover);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .titulo {
+    justify-content: center;
+  }
+}

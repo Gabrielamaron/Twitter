@@ -1,0 +1,13 @@
+.tweets {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 85% 1fr;
+}
+
+@media screen and (max-width: 1024px) {
+  .tweets {
+    height: calc(80vh - 2em);
+    grid-column: 1;
+    grid-row: 2;
+  }
+}

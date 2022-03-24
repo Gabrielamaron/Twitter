@@ -1,0 +1,7 @@
+.tweets-input__campo-de-texto {
+  align-self: center;
+  background-color: var(--branco-componente);
+  border-radius: 8px;
+  margin: 0 auto;
+  width: 90%;
+}

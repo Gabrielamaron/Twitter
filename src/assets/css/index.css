@@ -1,0 +1,22 @@
+:root {
+  --azul-background: #191970;
+  --azul-chamada: #87CEEB;
+  --azul-hover: #836FFF;
+  --branco-fonte: #FDFDFD;
+  --branco-componente: #F8F8FF; 
+}
+
+
+body {
+  background-color: var(--azul-background);
+  color: var(--branco-fonte);
+  margin: 0;
+  font-family:'Noto Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

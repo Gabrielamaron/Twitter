@@ -1,0 +1,19 @@
+.tweets-input {
+  display: flex;
+  grid-column: 1;
+  grid-row: 2;
+  justify-content: center;
+  justify-self: center;
+  padding: 0.425em;
+  width: 95%;
+}
+
+@media screen and (max-width: 1024px) {
+  .tweets-input {
+    justify-content: center;
+    min-width: 15em;
+    max-width: 20em;
+    width: 90vw;
+  }
+}
+

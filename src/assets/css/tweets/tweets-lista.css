@@ -1,0 +1,10 @@
+.tweets-lista {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0 1.2em;
+  overflow-y: scroll;
+  padding: 0.575em;
+  scrollbar-color: var(--branco-componente) var(--azul-background);
+  scrollbar-width: thin;
+}
