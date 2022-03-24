@@ -1,4 +1,4 @@
-# Twitter
+# 🐦Twitter
 Clone do twitter feito com react
 
 ## Instalação
